@@ -12,3 +12,8 @@ Cuando creamos o terminamos una funcionalidad, o una microtarea de una proyecto,
 con "git commit" asi pelado, abrimos la consola nano en con lo cual podemos escribir una descripcion mucho mas extensa de lo que hicimos en el commit. El formato seria: poner el titulo y luego a partir de la tercera linea un mensaje mas descriptivo y extenso
 ```
 ```
+# Cambiar el editor por nano
+
+git config --global core.editor nano (editor de la consola, el mejor)
+git config --global core.editor "code --wait" (editor del vsco)
+```
