@@ -9,7 +9,7 @@ Para sacar un archivo de la zona verde, osea de la staging area (SA), que seria 
 Cuando creamos o terminamos una funcionalidad, o una microtarea de una proyecto, es ahi donde deberiamos agregar el commit (un posible commit)
 ```
 ```
-con "git commit" asi pelado, abrimos la consola nano en con lo cual podemos escribir una descripcion mucho mas extensa de lo que hicimos en el commit. El formato seria: poner el titulo y luego a partir de la tercera linea un mensaje mas descriptivo y extenso
+con "git commit" asi pelado, abrimos la consola nano en con lo cual podemos escribir una descripcion mucho mas extensa de lo que hicimos en el commit. El formato seria: poner el titulo y luego a partir de la tercera linea un mensaje mas descriptivo y extenso osea la explicacion
 ```
 ```
 # Cambiar el editor por nano
@@ -20,6 +20,6 @@ git config --global core.editor "code --wait" (editor del vsco)
 ```
 # Ver listado de commits que hice en el repo 
 
-git log #version corta 
-git log --oneline #version larga (aparecen mas ordenados)
+git log #version corta (aparecen mas detallados)
+git log --oneline #version larga
 ```
