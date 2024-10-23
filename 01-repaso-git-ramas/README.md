@@ -1,5 +1,6 @@
 # Clase 06 bootcamp
 
+<git add>
 
 Si yo ahora creo un repositorio de git, en este se va a guardar y hacer referencia al contenido de la carpeta 01-repaso-git-ramas, no en la carpeta CLASE-06
 
