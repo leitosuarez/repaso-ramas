@@ -17,3 +17,9 @@ con "git commit" asi pelado, abrimos la consola nano en con lo cual podemos escr
 git config --global core.editor nano (editor de la consola, el mejor)
 git config --global core.editor "code --wait" (editor del vsco)
 ```
+```
+# Ver listado de commits que hice en el repo 
+
+git log #version corta 
+git log --oneline #version larga (aparecen mas ordenados)
+```
