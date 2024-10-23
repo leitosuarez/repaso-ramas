@@ -23,3 +23,18 @@ git config --global core.editor "code --wait" (editor del vsco)
 git log #version corta (aparecen mas detallados)
 git log --oneline #version larga
 ```
+```
+Usar o agregar el README.md a la hora de crear un repositorio de github, es practicamente obligatorio 
+```
+```
+# Agregar un remoto a mi repositorio local
+git remote add origin <url-al-repo-remoto>
+```
+```
+# Git remote-agregar/eliminar repo
+La forma de visualizar si tengo un repositorio agregado o no o cuantos tengo es usando el comando git remote -v
+
+Si quiero eliminar un repo que tengo agregado por y o x, tengo que usar git remote remove
+
+Si quiero saber mas comandos con el argumento o subcomando "remote" , pongo git remote -help y ahi me van a saltar todos
+```
