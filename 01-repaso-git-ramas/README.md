@@ -28,7 +28,7 @@ Usar o agregar el README.md a la hora de crear un repositorio de github, es prac
 ```
 ```
 # Agregar un remoto a mi repositorio local
-git remote add origin <url-al-repo-remoto>
+git remote add origin <url-al-repo-remoto> (siempre con el https)
 ```
 ```
 # Git remote-agregar/eliminar repo
