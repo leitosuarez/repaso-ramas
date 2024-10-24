@@ -70,9 +70,16 @@ Si tengo (master) a la hora de crear el repo debo usar el comando:
 ```sh
  git branch -M main 
  ```
- 
+
  y recien ahi subo al repositorio local al repositorio de github digamos, osea creo el repositorio. Usando:
 
 ```sh
 git push -u origin main
 ```
+
+El comando anterior solo lo vamos a utilizar/subir el remoto una vez, que va a ser a la hora de crear el repo. Luego para actualizar/subir el en el repositorio local solo debremos usar:
+
+```sh
+git push 
+```
+
