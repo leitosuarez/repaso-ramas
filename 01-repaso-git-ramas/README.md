@@ -74,7 +74,7 @@ Si tengo (master) a la hora de crear el repo debo usar el comando:
  y recien ahi subo al repositorio local al repositorio de github digamos, osea creo el repositorio. Usando:
 
 ```sh
-git push -u origin main #Es como que le estamos diciendo "subime la rama local main a la rama remota osea al origin, y el origin es toda la url que guardamos cuando creamos el remoto"
+git push -u origin main #Es como que le estamos diciendo "subime la rama local main a la rama remota osea al origin, y el origin es toda la url que guardamos cuando creamos el remoto. main = rama local; origin = rama remota"
 ``` 
 
 El comando anterior solo lo vamos a utilizar/subir el remoto una vez, que va a ser a la hora de crear el repo. Luego para actualizar/subir el en el repositorio local solo debremos usar:
