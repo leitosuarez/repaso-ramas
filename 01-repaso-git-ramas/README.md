@@ -65,7 +65,13 @@ git remote -help
 y ahi me van a saltar todos
 
 # Crear repo y mas 
-Si tengo (master) a la hora de crear el repo debo usar el git branch -M main y recien ahi subo al repositorio local al repositorio de github digamos, osea creo el repositorio. Usando:
+Si tengo (master) a la hora de crear el repo debo usar el comando:
+
+```sh
+ git branch -M main 
+ ```
+ 
+ y recien ahi subo al repositorio local al repositorio de github digamos, osea creo el repositorio. Usando:
 
 ```sh
 git push -u origin main
