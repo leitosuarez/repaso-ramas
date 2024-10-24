@@ -83,3 +83,11 @@ El comando anterior solo lo vamos a utilizar/subir el remoto una vez, que va a s
 git push 
 ```
 
+# Para recuperar mi codigo luego de una catastrofe (que la carpeta se me haya borrado por alguna razon)
+Ir al repositorio de github, hacer click sobre el boton code y compiar url a mi repositorio
+
+```sh
+git clone <url-al-repositorio>
+git clone <url-al-repositorio> ./ #Clona en el directorio actual
+git clone <url-al-repositorio> # Crea una carpeta (repaso-ramas) y clona el repositorio remoto al local
+```
